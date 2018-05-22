@@ -1,0 +1,48 @@
+/* @import url('https://fonts.googleapis.com/css?family=Oxygen'); */
+@import url('https://fonts.googleapis.com/css?family=Kavivanar|Oxygen');
+
+/* global setting with borderbox so no extra padding and margin for content */
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body,html{
+    background: black;
+    
+    
+}
+
+div{
+
+    height: 33.3vh;
+    
+
+}
+input[type=number]{
+
+    width: 100%;
+    height: 100%;;
+    background: black;
+    text-align: center;
+    font-size: 6rem;
+    color: rgb(145, 45, 5);
+    border: 0;
+    outline: none;
+    font-family: 'Kavivanar', cursive;
+    
+
+}
+
+::-moz-placeholder{
+  
+    color: orangered;
+}
+
+::-webkit-input-placeholder{
+    color: orangered;
+
+}
