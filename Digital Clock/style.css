@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css?family=VT323');
+
+
+*{
+
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+
+
+}
+
+body{
+
+    background: linear-gradient(
+        to right,
+        rgba(23, 14, 145, 0.2),
+        rgba(9, 89, 126, 0.2)
+      ),url(pattern.png);;
+}
+.main{
+
+    background-color: rgba(135, 107, 74, 1);
+    color:rgb(25, 137, 172);
+    width: 530px;
+    height: 350px;
+    margin: 100px auto;
+    position: relative;
+    border-radius: 10px;
+    box-shadow: 0rem 1rem 2rem rgb(80, 80, 80);
+    padding: 60px;
+}
+
+.topper{
+
+background: #35291d;
+color: white;
+font-weight: bold;
+text-align: center;
+width: 100px;
+padding: 5px 10px;
+position: absolute;
+top:-15px;
+left: 40%;
+border-radius: 10px;
+}
+
+.digitalclock{
+
+background-color: rgba(0, 0, 0, 0.733);
+text-shadow: 3px 2px 10px rgb(6, 46, 83);
+text-align: center;
+font-size: 6rem;
+margin-top: 4rem;
+border-radius: 10px;
+font-family: 'VT323', monospace;
+
+
+
+}
